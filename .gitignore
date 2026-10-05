@@ -1,0 +1,28 @@
+# Python caches and local test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+work/
+outputs/
+
+# Zotero source and exported research data
+*.[pP][dD][fF]
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+.zotero-export/
+live-*.json
+
+# Local configuration, credentials and packages
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.zip
+local-settings.json
+Thumbs.db
+desktop.ini
